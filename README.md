@@ -1,5 +1,4 @@
 # Project-2 | Front End SIUMNI
--------------------------------
 
 ## Anggota
 * 0110221258 - Bagas Fauzan Hidayat
