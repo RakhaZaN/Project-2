@@ -4,93 +4,164 @@ This is a starter template page. Use this page to start your new project from
 scratch. This page gets rid of all links and provides the needed markup only.
 -->
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SIUMNI</title>
 
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="./assets/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="./assets/css/adminlte.min.css">
 </head>
+
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand navbar-white navbar-light">
-    <!-- Left navbar links -->
-    <div class="row">
-      <div class="col-12">
-          <img src="assets/img/siumni logo.png" class="img-circle elevation-2" alt="User Image" weidh="100px" height="100px">
-      </div>
-    </div>
-      <div class="col">
-        <h1 class="m-0" style="font-size: x-large;">SIUMNI - STTNF</h1>
-      </div>
-    <ul class="navbar-nav">
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Berita</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Loker</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Login</a>
-      </li>
-    </ul>
+  <nav class="navbar navbar-expand-md navbar-white navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/siumni logo.png" alt="" width="80"
+          class="d-inline-block align-text-center img-circle elevation-2 mr-2">
+        SIUMNI - STTNF
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Berita</a>
+          <a class="nav-link" href="#">Loker</a>
+          <a class="btn btn-outline-dark" href="#">Login</a>
+        </div>
+      </div> <!-- /.collapse -->
+    </div> <!-- /.container-fluid -->
   </nav>
   <!-- /.navbar -->
 
-  
+  <!-- hero -->
   <div class="container-fluid">
-    <div class="row mb-2">
-      <div class="col-sm-6">
-      </div><!-- /.col -->
-      <div class="col-sm-6">
-      </div><!-- /.col -->
-    </div><!-- /.row -->
-  </div><!-- /.container-fluid -->
-  <hr>
-  <div style="border: 2px #000000 solid; padding: 10px; background-color: rgb(255, 255, 255); text-align: left;">
-    <h2> Hello Alumni STT-NF</h2>
-    <p> Selamat datang kepada alumni STT-NF di Web SIUMNI. Ini dibuat untuk mempererat silaturahmi seluruh alumni STT-NF</p>
-    <button type="button">Daftar Alumni</button>
-  </div>
-  <center> <h2>Sapa Alumni</h2> </center>
-  <div class="d-flex justify-content-center my-5" >
-    <img class="mr-3" src="assets/img/user1-128x128.jpg" alt="photo" weidh="100px" height="100px">
-    <img class="mr-3" src="assets/img/user2-160x160.jpg" alt="photo" weidh="100px" height="100px">
-    <img class="mr-3" src="assets/img/user3-128x128.jpg" alt="photo" weidh="100px" height="100px">
-    <img class="h-2" src="assets/img/user4-128x128.jpg" alt="photo" weidh="100px" height="100px">
-</div>
-<center> <h2>Berita Alumni</h2> </center>
-<div class="row">
-  <div class="col-6">
-    <center> <h2>Berita 1</h2> </center>
-    <p>Jeong Yun-o (Korean: 정윤오; born Jeong Jae-hyun (Korean: 정재현); February 14, 1997), better known by his stage name Jaehyun, is a South Korean singer-songwriter and actor. He is best known as a member of the South Korean boy group NCT and its sub-units NCT U and NCT 127. Jaehyun made his debut in April 2016 as a member of rotational unit NCT U and became a member of Seoul-based fixed unit NCT 127 in July 2016. He also was a former host of Inkigayo in between October 2019 and February 2021.</p>
-  </div>
-  <div class="col-6">
-    <center> <h2>Berita 2</h2> </center>
-    <p>Jeong Yun-o (Korean: 정윤오; born Jeong Jae-hyun (Korean: 정재현); February 14, 1997), better known by his stage name Jaehyun, is a South Korean singer-songwriter and actor. He is best known as a member of the South Korean boy group NCT and its sub-units NCT U and NCT 127. Jaehyun made his debut in April 2016 as a member of rotational unit NCT U and became a member of Seoul-based fixed unit NCT 127 in July 2016. He also was a former host of Inkigayo in between October 2019 and February 2021.</p>
-  </div>
-</div>
-<hr>
+    <div class="container justify-content-center my-5">
+      <div class="card border border-dark">
+        <div class="card-body">
+          <h2> Hello Alumni STT-NF</h2>
+          <p> Selamat datang kepada alumni STT-NF di Web SIUMNI. Ini dibuat untuk mempererat silaturahmi seluruh
+            alumni STT-NF</p>
+          <button type="button" class="btn btn-dark">Daftar Alumni</button>
+        </div>
+      </div> <!-- /.card -->
+    </div><!-- /.container -->
+    <!-- /.hero -->
 
-<footer>
-  <p>SIUMNI BY CODEIN 2022</p>
-</footer>
+    <!-- alumni -->
+    <h2 class="text-center mb-3">Sapa Alumni</h2>
+    <div class="row justify-content-center px-5 mb-5">
+      <div class="col-6 col-md-3">
+        <div class="card">
+          <img class="card-img-top w-100" src="assets/img/user1-128x128.jpg" alt="photo">
+          <div class="card-body">
+            <h4 class="card-title">Yudi Senaider</h4>
+            <br>
+            <a href="#" class="badge badge-light"><i class="fab fa-instagram"></i> yd.sndr</a>
+            <a href="#" class="badge badge-light"><i class="fab fa-linkedin"></i> yudi senaider</a>
+            <a href="#" class="badge badge-light"><i class="fab fa-twitter"></i> y.senaider</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card">
+          <img class="mr-3" src="assets/img/user3-128x128.jpg" alt="photo" weidh="100px">
+          <div class="card-body">
+            <h5 class="card-title">Kim Doran</h5>
+            <br>
+            <a href="#" class="badge badge-light"><i class="fab fa-instagram"></i> kim_d</a>
+            <a href="#" class="badge badge-light"><i class="fab fa-linkedin"></i> kim doran</a>
+            <a href="#" class="badge badge-light"><i class="fab fa-twitter"></i> doran_</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card">
+          <img class="card-img-top w-100" src="assets/img/user2-160x160.jpg" alt="photo">
+          <div class="card-body">
+            <h4 class="card-title">Udin Tetsuya</h4>
+            <br>
+            <a href="#" class="badge badge-light"><i class="fab fa-instagram"></i> tetsu_chan</a>
+            <a href="#" class="badge badge-light"><i class="fab fa-linkedin"></i> udin tetsuya</a>
+            <a href="#" class="badge badge-light"><i class="fab fa-twitter"></i> tetsu.chan</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card">
+          <img class="card-img-top w-100" src="assets/img/user4-128x128.jpg" alt="photo">
+          <div class="card-body">
+            <h4 class="card-title">Ling Yuan</h4>
+            <br>
+            <a href="#" class="badge badge-light"><i class="fab fa-instagram"></i> lingling</a>
+            <a href="#" class="badge badge-light"><i class="fab fa-linkedin"></i> ling yuan</a>
+            <a href="#" class="badge badge-light"><i class="fab fa-twitter"></i> ice.ll</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.alumni -->
 
-<!-- REQUIRED SCRIPTS -->
+    <!-- berita -->
+    <h2 class="text-center mb-3">Berita Alumni</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h2>Berita 1</h2>
+              <p>Jeong Yun-o (Korean: 정윤오; born Jeong Jae-hyun (Korean: 정재현); February 14, 1997), better known by his
+                stage name Jaehyun, is a South Korean singer-songwriter and actor.
+                <br>
+                He is best known as a member of the South Korean boy group NCT and its sub-units NCT U and NCT 127.
+                Jaehyun made his debut in April 2016 as a member of rotational unit NCT U and became a member of
+                Seoul-based fixed unit NCT 127 in July 2016. He also was a former host of Inkigayo in between October
+                2019 and February 2021.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h2>Berita 2</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima magnam facere quidem repudiandae nihil
+                neque assumenda libero deleniti doloribus ratione! Doloremque ducimus adipisci dicta, iure officiis
+                reiciendis obcaecati ad perspiciatis natus dolores dignissimos voluptatum, corrupti esse iste explicabo,
+                perferendis mollitia suscipit totam sit expedita eos architecto. Cumque animi ipsum vel!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.berita -->
+    <hr>
 
-<!-- jQuery -->
-<script src="./assets/plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap 4 -->
-<script src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- AdminLTE App -->
-<script src="./assets/js/adminlte.min.js"></script>
+    <footer class="d-flex justify-content-between align-items-center p-3">
+      <p><b>SIUMNI</b> Created By <b>CODEIN</b> | 2022</p>
+      <div class="supports">
+        <img src="./assets/img/stt-nf.png" alt="STTNF" class="mr-2" width="50">
+        <img src="./assets/img/siumni logo.png" alt="STTNF" width="50">
+      </div>
+    </footer>
+
+    <!-- REQUIRED SCRIPTS -->
+
+    <!-- jQuery -->
+    <script src="./assets/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="./assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="./assets/js/adminlte.min.js"></script>
 </body>
+
 </html>
