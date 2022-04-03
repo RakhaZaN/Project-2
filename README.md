@@ -1,6 +1,7 @@
-# Project-2 | Front End SIUMNI
+# Project
 
-## Anggota
+## Semester 1 - Project 2 | SIUMNI
+### Anggota
 * 0110221258 - Bagas Fauzan Hidayat
 * 0110221368 - Fadhilah Farhan
 * 0110221255 - Ichda Rahma
